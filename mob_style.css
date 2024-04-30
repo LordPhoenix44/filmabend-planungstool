@@ -1,0 +1,139 @@
+:root {
+  --black: #111317;
+  --blue: #1a2b59;
+  --dark_white: #f7f7f7;
+}
+
+a {
+  text-decoration: none;
+  color: white
+}
+
+p {
+  font-size: 1.2em;
+  font-family: "Roboto", "Plus Jakarta", sans-serif;
+  color: var(--black);
+}
+
+h2 {
+  font-size: 1.6em;
+  font-family: 'Azeret Mono', monospace;
+  color: var(--black);
+  margin-left: 1.2em;
+}
+
+h3 {
+  font-size: 1.4em;
+  font-family: 'Azeret Mono', monospace;
+  color: var(--black);
+}
+
+body {
+  background-color: var(--dark_white);
+}
+
+ul > li {
+  display: block;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+.header {
+  background-color: var(--blue);
+  height: 6em;
+  width: 100%;
+}
+
+.headlinks {
+  position: absolute;
+  text-align: right;
+  right: 2.5em;
+  margin-top: 3.25em;
+  transform: translate(0, -50%);
+  color:  white;
+  font-size: 1em;
+  font-family: 'Azeret Mono', monospace;
+}
+
+.homebutton {
+  position: absolute;
+  margin-top: 3.25em;
+  transform: translate(0, -50%);
+  color:  white;
+  left: -0.1em;
+}
+
+.homebutton a {
+  color: white;
+  font-family: 'Azeret Mono', monospace;
+}
+
+.headlinks a {
+  margin-bottom: 0.5em;
+}
+
+.con_bar {
+  width: 100%;
+  background-color: white;
+  overflow: scroll;
+}
+
+.kalender {
+  margin-left: 40%;
+  transform: translate(-50%, 0%);
+  display: grid;
+  grid-template-columns: max-content max-content max-content max-content max-content max-content;
+  column-gap: 1.6em;
+  grid-auto-rows: 2em;
+  background-color: white;
+  padding-left: -0.6em;
+  padding-right: 1.2em;
+  padding-bottom: 1.6em;
+  padding-top: -0.2em;
+}
+
+.kalender p {
+  display: inline;
+}
+
+.k_head {
+  font-weight: bold;
+  font-family: 'Azeret Mono', monospace;
+}
+
+.text {
+  padding-left: 1.2em;
+  padding-right: -1.2em;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  overflow: hidden;
+}
+
+.text a {
+  color: var(--blue);
+  text-decoration: underline;
+}
+
+.textf {
+  margin-top: -2.4em;
+  margin-bottom: 1.8em;
+  background: var(--dark_white);
+  border: none;
+  border-bottom: 2px solid;
+  border-color: var(--blue);
+}
+
+.subbut {
+  background: var(--dark_white);
+  border: 2px solid;
+  border-color: var(--blue);
+  font-family: 'Azeret Mono', monospace;
+  transition: 0.15s;
+}
+
+.subbut:hover {
+  background-color: var(--blue);
+  color: var(--dark_white);
+}
